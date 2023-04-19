@@ -79,5 +79,7 @@ app.listen(process.env.PORT || 3000, function(){
     console.log("The port has started listening.....");
 })
 
+module.exports.handler = serverless(app);
+
 // Dynamic port
 // As we deploy at outerspace. We added 3000 part for the local system
