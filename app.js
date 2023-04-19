@@ -5,6 +5,7 @@ require('dotenv').config();
 const request = require("request");
 const bodyParser = require('body-parser');
 const https = require('node:https');
+const serverless = require('serverless-http');
 
 // Initializing all the keys and URL.
 const AUDIENCE_KEY = process.env.AUDIENCE_KEY;
