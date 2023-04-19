@@ -8,7 +8,7 @@ const https = require('node:https');
 
 // Initializing all the keys and URL.
 const AUDIENCE_KEY = process.env.AUDIENCE_KEY;
-const URL = process.env.URL + AUDIENCE_KEY;
+const URL = process.env.URLI + AUDIENCE_KEY;
 const API_KEY = process.env.API_KEY;
 
 // Adding the access to local files to render them on server.
