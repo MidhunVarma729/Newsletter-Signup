@@ -14,7 +14,7 @@ const API_KEY = process.env.API_KEY;
 
 // Adding the access to local files to render them on server.
 app.use(express.static(__dirname));
-app.use("/styles", express.static(__dirname + '/styles'));
+app.use("/styles", express.static(+ '/styles'));
 app.use(bodyParser.urlencoded({extended:true}));
 
 // Send the Homepage.
